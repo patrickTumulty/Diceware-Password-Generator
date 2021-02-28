@@ -28,7 +28,7 @@ The Diceware original wordlist that contains 7776 short words, abbreviations and
 
 ## Interface
 
-<p alight="center">
+<p align="center">
 	<p float="left">
 	  <img src="./images/start_screen.png" width="300" width="100" />
 	  <img src="./images/generate_screen.png" width="300" width="100" />
