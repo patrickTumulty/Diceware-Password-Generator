@@ -1,0 +1,71 @@
+
+.root {
+    -fx-background-image: url("computer_screen.png");
+    -fx-background-size: 600 500;
+    -fx-background-position: center center;
+}
+
+#mainTitleLabel {
+    -fx-font-size: 60;
+    -fx-font-family: Courier New;
+    -fx-text-fill: #34E72F;
+}
+
+#wordLookupTitle {
+    -fx-font-size: 35;
+    -fx-font-family: Courier New;
+    -fx-text-fill: #34E72F;
+}
+
+#passwordGenLabel {
+    -fx-font-size: 35;
+    -fx-font-family: Courier New;
+    -fx-text-fill: #34E72F;
+}
+
+#numberOfWordsLabel {
+    -fx-font-size: 25;
+    -fx-font-family: Courier New;
+    -fx-text-fill: #34E72F;
+}
+
+.button {
+    -fx-border-color: #34E72F;
+    -fx-border-width: 4;
+    -fx-border-radius: 8;
+    -fx-background-color: transparent;
+    -fx-background-radius: 8;
+    -fx-background-insets: 1;
+    -fx-font-size: 18pt;
+    -fx-font-family: Courier New;
+    -fx-text-fill: #34E72F;
+
+}
+
+.radio-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 8;
+    -fx-background-insets: 1;
+    -fx-font-size: 15pt;
+    -fx-font-family: Courier New;
+    -fx-text-fill: #34E72F;
+}
+
+.radio-button .radio {
+    -fx-border-width: 3px;
+    -fx-border-color: #34E72F;
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+    -fx-padding: 4px;
+}
+
+.radio-button .dot {
+    -fx-mark-highlight-color: #34E72F;
+    -fx-mark-color: #34E72F;
+    -fx-background-radius: 15px;
+    -fx-padding: 8px;
+}
+
+
+
+

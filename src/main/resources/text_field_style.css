@@ -1,0 +1,27 @@
+.text-field {
+    -fx-font-family: Courier New;
+    -fx-font-size: 18pt;
+    -fx-background-color: transparent;
+    -fx-border-color: #34E72F;
+    -fx-border-width: 4;
+    -fx-border-radius: 8;
+    -fx-text-fill: #34E72F;
+}
+
+.text-field *.text {
+
+    -fx-text-alignment: center;
+
+}
+
+.text-field .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-field .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+.text-field .scroll-pane .content{
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="pane" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" spacing="20.0" stylesheets="@start_screen.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pt.controllers.StartScreenController">
+   <children>
+      <Label fx:id="mainTitleLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0" text="DICEWARE">
+         <font>
+            <Font size="52.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="30.0" />
+         </VBox.margin>
+      </Label>
+      <Button fx:id="generatorButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#generateButtonClicked" prefHeight="60.0" prefWidth="300.0" text="Password Generator" />
+      <Button fx:id="lookupButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#lookupButtonClicked" prefHeight="60.0" prefWidth="300.0" text="Word Lookup" />
+      <HBox alignment="CENTER" prefHeight="49.0" prefWidth="600.0" spacing="20.0">
+         <children>
+            <RadioButton fx:id="effRadio" mnemonicParsing="false" onMouseClicked="#wordListSelectClicked" text="EFF" />
+            <RadioButton fx:id="originalRadio" mnemonicParsing="false" onMouseClicked="#wordListSelectClicked" text="Original" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
