@@ -28,15 +28,12 @@ The Diceware original wordlist that contains 7776 short words, abbreviations and
 
 ## Interface
 
-<p align="center">
-	<img src="./images/start_screen.png" width="400">
+<p alight="center">
+	<p float="left">
+	  <img src="./images/start_screen.png" width="300" width="100" />
+	  <img src="./images/generate_screen.png" width="300" width="100" />
+	  <img src="./images/lookup_screen.png" width="300" width="100" /> 
+	</p>
 </p>
 
-<div class="row">
-    <div class="column">
-        <img src="./images/generate_screen.png" width="300">
-    </div>
-	<div class="column">
-        <img src="./images/lookup_screen.png" width="300">
-    </div>
-</div>
+
