@@ -19,23 +19,12 @@ import java.util.Scanner;
 public class DicewarePasswordGenerator extends Application {
 
     public static void main(String[] args) {
-//        Die singleDie = new Die();
-//        for (int i = 0; i < 10; i++) {
-//            System.out.println(singleDie.roll());
-//        }
-//
-//        DiceRoller diceRoller = new DiceRoller();
-//        for (int i = 0; i < 10; i++) {
-//            System.out.println(diceRoller.rollDice(5));
-//        }
 
         launch(args);
     }
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-
-
 
         WindowInitializer<StartScreenController> mainWindow = new WindowInitializer<>("/StartScreen.fxml");
 
